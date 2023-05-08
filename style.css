@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.title {
+    margin-top: 0;
+    color: #ff1a1a;
+}
+
+
+label,
+input {
+    font-size: 1.2rem;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+button {
+    padding: 10px;
+    background-color: #ff1a1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+
+.output {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+#active-cases {
+    color: #cc0000;
+}
+
+#total-deaths {
+    color: #333;
+}
+
+
+.note {
+    display: block;
+    font-size: 0.8rem;
+    color: #999;
+}
